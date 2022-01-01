@@ -4,7 +4,7 @@
 *    2.7 - Loading external data
 */
 
-d3.json("../data/buildings.json").then(data => {
+d3.json("./data/buildings.json").then(data => {
 
 	data.forEach(d => {
 		d.height = Number(d.height)
